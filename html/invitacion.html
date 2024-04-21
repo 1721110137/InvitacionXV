@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación</title>
+  <link rel="icon" type="image/png" href="../assets/icon.jpg">
+  <link rel="stylesheet" href="../styles/styles_inv.css">
+</head>
+<body>
+  <div class="container">
+    <div class="portada">
+      <h1 class="titulo">¡Mis XV años!</h1>
+      <p class="desc">¡Acompañame en este día tan importante!</p>
+      <h1 class="titulo">Charlize Eileene</h1>
+    </div>
+    <h2 class="titulo2">27 de Julio de 2024</h2>
+    <div class="cronometro">
+      <h2 class="titulo1">Restan: 
+        <br><br>
+        <span class="titulo3" id="countdown"></span>
+        <br><br></h2>
+    </div>
+    <div class="lugares">
+    <div class="lugar1">
+      <h2>Lugar de la Misa:</h2>
+      <p>Parroquia de Santa Maria Nativitas</p>
+      <p>13:00 hrs.</p>
+      <button onclick="redirectToMisa()">¡Cómo llegar!</button>
+    </div>
+    <div class="lugar2">
+      <h2>Lugar del Evento:</h2>
+      <p>Salón de eventos Diamante</p>
+      <p>15:00 hrs.</p>
+      <button onclick="redirectToEvento()">¡Cómo llegar!</button>
+    </div>
+    </div>
+    <div id="mapa"></div>
+  <div class="container">
+    <button onclick="mostrarFormulario()">Confirmar Asistencia</button>
+    <div id="formulario" style="display: none;">
+      <h2 class="titulo3">Ingresa tus datos</h2>
+      <form class="asistencia" onsubmit="return confirmarAsistencia()">
+        <label for="nombre">Nombre completo</label>
+        <br>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <label for="asistentes">Número de acompañantes</label>
+        <br>
+        <input type="number" id="asistentes" name="asistentes">
+        <br><br>
+        <input type="submit" value="Confirmar">
+      </form>
+    </div>
+</div>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>

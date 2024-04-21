@@ -1,0 +1,123 @@
+body {
+    background-image: url('../assets/fondo.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: aliceblue;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px 1px 15px 1px;
+    border-radius: 100px;
+  }
+  
+  .cronometro {
+    margin-top: 30px;
+  }
+  
+  .lugares {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 500px;
+    padding-bottom: -1px;
+  } 
+
+  .lugar1 {
+    flex: 1;
+    margin: 0 10px;
+    font-family: 'Garamond', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .luga1:nth-child(2) {
+    text-align: right;
+  }
+  
+  .lugar2 {
+    flex: 1;
+    margin: 0 10px;
+    font-family: 'Garamond', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .luga2:nth-child(2) {
+    text-align: left;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(255, 186, 247);
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:rgb(254, 219, 255);
+  }
+  
+  input[type="submit"] {
+    background-color:rgb(255, 186, 247);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:rgb(254, 219, 255);
+  }
+  
+  .titulo {
+    font-family: 'Garamond', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    color: #333;
+    font-weight: bold;
+margin-bottom: 1px;
+  }
+
+  .titulo2 {
+    font-family: 'Garamond', cursive;
+    font-size: 25px;
+    font-weight: normal;
+    color: #333;
+    font-weight: bold
+  }
+
+  
+  .titulo3 {
+    font-family: 'Garamond', cursive;
+    font-size: 25px;
+    font-weight: normal;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .desc{
+
+      font-family: 'Garamond', cursive;
+      font-size: 25px;
+      font-weight: normal;
+      color: #333;
+  }
+
+  .asistencia{
+    font-family: 'Garamond', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+  }
